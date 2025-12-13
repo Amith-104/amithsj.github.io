@@ -94,20 +94,23 @@
       margin:0.2rem;
     }
 
-    /* Profile photo */
+    /* ✅ FIXED PROFILE PHOTO STYLING */
     .profile-container{
       display:flex;
-      align-items:center;
-      gap:1.5rem;
+      align-items:flex-start; /* IMPORTANT FIX */
+      gap:1.8rem;
       flex-wrap:wrap;
     }
 
     .profile-pic{
       width:160px;
       height:160px;
+      min-width:160px;
+      min-height:160px;
       object-fit:cover;
       border-radius:50%;
       border:4px solid var(--accent);
+      display:block; /* IMPORTANT FIX */
     }
 
     /* Social icons */
@@ -166,7 +169,9 @@
 <section id="about">
   <h2>About Me</h2>
   <div class="card profile-container">
+
     <img src="images/Amith.jpg" alt="Amith S J" class="profile-pic">
+
     <div>
       <p>
         I am a PhD Research Scholar in Zoology at 
@@ -178,6 +183,7 @@
         locomotor performance, and physiological tolerance in reptiles, using geckos as a model system.
       </p>
     </div>
+
   </div>
 </section>
 
@@ -294,26 +300,5 @@
       </a>
 
       <a class="icon-link" href="https://orcid.org/0000-0002-8485-5780" target="_blank">
-        <i class="fa-brands fa-orcid"></i> ORCID
-      </a>
+        <i class="fa-brands fa-orcid"></i> ORC
 
-      <a class="icon-link" href="https://scholar.google.com/citations?user=oBpLWqEAAAAJ&hl=en&authuser=2" target="_blank">
-        <i class="fa-solid fa-graduation-cap"></i> Google Scholar
-      </a>
-
-      <a class="icon-link" href="https://www.researchgate.net/profile/Amith-S-J-2" target="_blank">
-        <i class="fa-brands fa-researchgate"></i> ResearchGate
-      </a>
-
-    </div>
-  </div>
-</section>
-
-</main>
-
-<footer>
-  © 2026 Amith S J | Academic Research Profile
-</footer>
-
-</body>
-</html>
