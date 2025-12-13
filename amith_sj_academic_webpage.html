@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amith S J | PhD Researcher</title>
+  <style>
+    :root {
+      --primary: #1f4e79;
+      --secondary: #2f6f95;
+      --accent: #5aa9e6;
+      --bg: #f8fafc;
+      --text: #1e293b;
+      --muted: #64748b;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(120deg, var(--primary), var(--secondary));
+      color: white;
+      padding: 3rem 1.5rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.4rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+      opacity: 0.95;
+    }
+
+    nav {
+      margin-top: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 0.95rem;
+      opacity: 0.9;
+    }
+
+    nav a:hover { opacity: 1; text-decoration: underline; }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 2.5rem 1.5rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    section h2 {
+      color: var(--primary);
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid var(--accent);
+      display: inline-block;
+      padding-bottom: 0.3rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+      margin-bottom: 1.5rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    li { margin-bottom: 0.5rem; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #e0f2fe;
+      color: #075985;
+      padding: 0.25rem 0.6rem;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      margin: 0.2rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #e2e8f0;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .contact a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .contact a:hover { text-decoration: underline; }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Amith S J</h1>
+  <p>PhD Research Scholar | Urban Ecology • Evolutionary Biology • Climate Change</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#methods">Methods</a>
+    <a href="#publications">Publications</a>
+    <a href="#talks">Talks</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#cv">CV</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      I am a PhD Research Scholar in Zoology at JAIN (Deemed-to-be) University, Bengaluru, working at the Centre for Urban Ecology, Biodiversity, Evolution & Climate Change (CUBEC). My research focuses on how rapid urbanisation and urban heat island effects shape morphology, performance, and physiology in reptiles.
+    </p>
+    <p>
+      I use geckos as a model system to understand urban adaptation, natural selection, and evolutionary trajectories in human-modified landscapes.
+    </p>
+  </div>
+</section>
+
+<section id="research">
+  <h2>Research Interests</h2>
+  <div class="grid">
+    <div class="card">
+      <strong>Urban Evolution</strong>
+      <p>Phenotypic divergence and adaptation in urban vs rural populations.</p>
+    </div>
+    <div class="card">
+      <strong>Thermal & Performance Ecology</strong>
+      <p>Thermal tolerance, sprint performance, and stress physiology.</p>
+    </div>
+    <div class="card">
+      <strong>Climate Change Biology</strong>
+      <p>Urban heat islands as proxies for future climate scenarios.</p>
+    </div>
+  </div>
+</section>
+
+<section id="project">
+  <h2>Current PhD Project</h2>
+  <div class="card">
+    <p>
+      My doctoral research investigates morphometric divergence, locomotor performance, and physiological tolerance in urban and rural populations of <em>Hemidactylus parvimaculatus</em> (nocturnal) and <em>Cnemaspis mysoriensis</em> (diurnal) across Bengaluru.
+    </p>
+    <p>
+      The project integrates field sampling, controlled laboratory experiments, and statistical modelling to understand how urban environments drive evolutionary change.
+    </p>
+  </div>
+</section>
+
+<section id="methods">
+  <h2>Methods & Skills</h2>
+  <div class="card">
+    <div class="tag">R & Statistical Modelling</div>
+    <div class="tag">Linear & Mixed Models</div>
+    <div class="tag">PCA / Multivariate Analysis</div>
+    <div class="tag">Thermal Tolerance Experiments</div>
+    <div class="tag">Locomotor Performance Assays</div>
+    <div class="tag">Morphometrics</div>
+    <div class="tag">Field Ecology</div>
+  </div>
+</section>
+
+<section id="publications">
+  <h2>Publications & Manuscripts</h2>
+  <div class="card">
+    <ul>
+      <li><strong>Manuscript in preparation:</strong> Morphometric divergence between urban and rural gecko populations in Bengaluru.</li>
+      <li><strong>Ongoing:</strong> Locomotor performance and thermal adaptation under urban heat island conditions.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="talks">
+  <h2>Conference Talks & Posters</h2>
+  <div class="card">
+    <ul>
+      <li>Society for Integrative and Comparative Biology (SICB), 2026 — Oral Presentation</li>
+      <li>National & University-level research symposia (Posters & Talks)</li>
+    </ul>
+  </div>
+</section>
+
+<section id="teaching">
+  <h2>Teaching & Courses</h2>
+  <div class="card">
+    <ul>
+      <li>Environmental Studies (EVS) – Practical & Theory Modules</li>
+      <li>Climate Change & Sustainability</li>
+      <li>Research Methodology (Undergraduate)</li>
+    </ul>
+  </div>
+</section>
+
+<section id="cv">
+  <h2>Curriculum Vitae</h2>
+  <div class="card">
+    <p>
+      <a href="CV_Amith_SJ.pdf" target="_blank">Download CV (PDF)</a>
+    </p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card contact">
+    <p>Email: <a href="mailto:amith.sj@jainuniversity.ac.in">amith.sj@jainuniversity.ac.in</a></p>
+    <p>Google Scholar: <em>Link to be added</em></p>
+    <p>ORCID: <em>Link to be added</em></p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  © 2025 Amith S J | Academic Research Profile
+</footer>
+
+</body>
+</html>
