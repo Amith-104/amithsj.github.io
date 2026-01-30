@@ -82,7 +82,7 @@
     }
 
     ul{padding-left:1.2rem;}
-    li{margin-bottom:0.8rem;}
+    li{margin-bottom:1rem;}
 
     .tag{
       display:inline-block;
@@ -94,10 +94,9 @@
       margin:0.2rem;
     }
 
-    /* ✅ FIXED PROFILE PHOTO STYLING */
     .profile-container{
       display:flex;
-      align-items:flex-start; /* IMPORTANT FIX */
+      align-items:flex-start;
       gap:1.8rem;
       flex-wrap:wrap;
     }
@@ -111,10 +110,8 @@
       border-radius:50%;
       border:4px solid var(--accent);
       display:block;
-       margin-top:0px;/* IMPORTANT FIX */
     }
 
-    /* Social icons */
     .icon-grid{
       display:grid;
       grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
@@ -155,10 +152,11 @@
     <a href="#about">About</a>
     <a href="#research">Research</a>
     <a href="#education">Education</a>
-    <a href="#project">PhD Project</a>
+    <a href="#grants">Grants</a>
+    <a href="#awards">Awards</a>
+    <a href="#talks">Conferences</a>
     <a href="#methods">Methods</a>
     <a href="#publications">Publications</a>
-    <a href="#talks">Talks</a>
     <a href="#teaching">Teaching</a>
     <a href="#cv">CV</a>
     <a href="#contact">Contact</a>
@@ -170,31 +168,33 @@
 <section id="about">
   <h2>About Me</h2>
   <div class="card profile-container">
-
     <img src="./amith.jpg" alt="Amith S J" class="profile-pic">
-
     <div>
       <p>
-        I am a PhD Research Scholar in Zoology at 
-        <strong>JAIN (Deemed-to-be) University, Bengaluru</strong>, working at the 
+        I am a <strong>PhD Research Scholar in Zoology</strong> at 
+        <strong>JAIN (Deemed-to-be) University, Bengaluru</strong>, affiliated with the
         <strong>Centre for Urban Ecology, Biodiversity, Evolution & Climate Change (CUBEC)</strong>.
       </p>
       <p>
-        My research examines how rapid urbanisation and urban heat island effects shape morphology,
-        locomotor performance, and physiological tolerance in reptiles, using geckos as a model system.
+        My research examines how rapid urbanisation and urban heat island effects drive
+        morphological, locomotor, and physiological adaptations in reptiles, using geckos
+        as a model system to understand urban evolution and climate-driven selection.
+      </p>
+      <p>
+        I am a <strong>funded early-career researcher</strong>, supported by competitive
+        international grants, and actively engaged in national and international scientific conferences.
       </p>
     </div>
-
   </div>
 </section>
 
 <section id="research">
   <h2>Research Interests</h2>
   <div class="grid">
-    <div class="card"><strong>Urban Ecology and Evolution</strong><p>Urban–rural divergence and adaptation.</p></div>
-    <div class="card"><strong>Thermal Biology</strong><p>CTmax, CTmin, thermal performance.</p></div>
-    <div class="card"><strong>Performance Ecology</strong><p>Locomotion, sprint speed, climbing.</p></div>
-    <div class="card"><strong>Climate Change Biology</strong><p>Urban heat islands as climate analogues.</p></div>
+    <div class="card"><strong>Urban Ecology & Evolution</strong><p>Adaptation across urban–rural gradients.</p></div>
+    <div class="card"><strong>Thermal & Performance Biology</strong><p>CTmax, CTmin, locomotor performance.</p></div>
+    <div class="card"><strong>Climate Change Biology</strong><p>Urban heat islands as future climate analogues.</p></div>
+    <div class="card"><strong>Urban Biodiversity</strong><p>Responses of ectotherms to anthropogenic landscapes.</p></div>
   </div>
 </section>
 
@@ -209,13 +209,41 @@
   </div>
 </section>
 
-<section id="project">
-  <h2>Current PhD Project</h2>
+<section id="grants">
+  <h2>Grants Received</h2>
   <div class="card">
-    <p>
-      Characterising morphometric, locomotor, and physiological adaptations to urban heat in
-      <em>Hemidactylus parvimaculatus</em> and <em>Cnemaspis mysoriensis</em> across Bengaluru.
-    </p>
+    <ul>
+      <li>
+        <strong>IDEA WILD Equipment Grant</strong> (Project ID: SJINDI0325-00)<br>
+        Competitive international grant providing equipment support up to <strong>USD 620</strong>.
+        <ul>
+          <li><strong>Xinfrared One XH09 Thermal Night Vision Monocular</strong> — nocturnal gecko surveys.</li>
+          <li><strong>Epson Perfection V39 II Flatbed Scanner</strong> — high-resolution morphometric imaging.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section id="awards">
+  <h2>Awards & Fellowships</h2>
+  <div class="card">
+    <ul>
+      <li><strong>IDEA WILD International Equipment Grant Awardee</strong></li>
+      <li><em>Additional awards and fellowships to be added.</em></li>
+    </ul>
+  </div>
+</section>
+
+<section id="talks">
+  <h2>Conference Talks & Posters</h2>
+  <div class="card">
+    <ul>
+      <li><strong>2026</strong> — SICB, Portland, USA. <em>Climbing the urban ladder: Locomotor performance of urban and rural geckos.</em> (Oral)</li>
+      <li><strong>2025</strong> — REVA University, Bengaluru. <em>Urban morphometric variation in Cnemaspis mysoriensis.</em> (Oral)</li>
+      <li><strong>2025</strong> — WFCCP, JAIN University. <em>Impact of ALAN on insects from an urban forensic perspective.</em> (Oral)</li>
+      <li><strong>2024</strong> — ISEB, Lucknow. <em>Morphometric variation in Hemidactylus parvimaculatus.</em> (Poster)</li>
+    </ul>
   </div>
 </section>
 
@@ -223,11 +251,12 @@
   <h2>Methods & Skills</h2>
   <div class="card">
     <span class="tag">R</span>
-    <span class="tag">Linear & Mixed Models</span>
+    <span class="tag">Mixed Models</span>
     <span class="tag">PCA</span>
     <span class="tag">Morphometrics</span>
-    <span class="tag">Sprint Performance</span>
-    <span class="tag">Thermal Experiments</span>
+    <span class="tag">Thermal Tolerance</span>
+    <span class="tag">Locomotor Performance</span>
+    <span class="tag">Field Ecology</span>
     <span class="tag">ArcGIS</span>
     <span class="tag">ImageJ</span>
   </div>
@@ -240,17 +269,6 @@
       <li>Manuscript in preparation: Urban–rural morphometric divergence in geckos.</li>
       <li>Submitted: Species–area relationships across golf courses in Karnataka.</li>
       <li>Book Review (2024): <em>Urban Evolutionary Biology</em>, Journal of Animal Diversity.</li>
-    </ul>
-  </div>
-</section>
-
-<section id="talks">
-  <h2>Conference Talks & Posters</h2>
-  <div class="card">
-    <ul>
-      <li><strong>SICB 2026 (USA)</strong> — Oral Presentation</li>
-      <li>ISEB 2024 — Poster Presentation</li>
-      <li>WFCCP 2025 — Oral Presentation</li>
     </ul>
   </div>
 </section>
@@ -269,9 +287,7 @@
 <section id="cv">
   <h2>Curriculum Vitae</h2>
   <div class="card">
-    <a href="CV_Amith_SJ.pdf" target="_blank" download>
-      📄 Download CV (PDF)
-    </a>
+    <a href="CV_Amith_SJ.pdf" target="_blank" download>📄 Download CV (PDF)</a>
   </div>
 </section>
 
@@ -279,30 +295,11 @@
   <h2>Contact & Profiles</h2>
   <div class="card">
     <div class="icon-grid">
-
-      <a class="icon-link" href="mailto:amith.sj@jainuniversity.ac.in">
-        <i class="fa-solid fa-envelope"></i> Institutional Email
-      </a>
-
-      <a class="icon-link" href="mailto:amithsj104@gmail.com">
-        <i class="fa-solid fa-envelope"></i> Personal Email
-      </a>
-
-      <a class="icon-link" href="https://www.linkedin.com/in/amith-s-j/" target="_blank">
-        <i class="fa-brands fa-linkedin"></i> LinkedIn
-      </a>
-
-      <a class="icon-link" href="https://x.com/AmithSJ4" target="_blank">
-        <i class="fa-brands fa-x-twitter"></i> X (Twitter)
-      </a>
-
-      <a class="icon-link" href="https://bsky.app/profile/amith-sj.bsky.social" target="_blank">
-        <i class="fa-solid fa-cloud"></i> Bluesky
-      </a>
-
-      <a class="icon-link" href="https://orcid.org/0000-0002-8485-5780" target="_blank">
-        <i class="fa-brands fa-orcid"></i> ORC
-
+      <a class="icon-link" href="mailto:amith.sj@jainuniversity.ac.in"><i class="fa-solid fa-envelope"></i> Institutional Email</a>
+      <a class="icon-link" href="https://www.linkedin.com/in/amith-s-j/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+      <a class="icon-link" href="https://orcid.org/0000-0002-8485-5780" target="_blank"><i class="fa-brands fa-orcid"></i> ORCID</a>
+      <a class="icon-link" href="https://scholar.google.com/citations?user=oBpLWqEAAAAJ" target="_blank"><i class="fa-solid fa-graduation-cap"></i> Google Scholar</a>
+      <a class="icon-link" href="https://www.researchgate.net/profile/Amith-S-J-2" target="_blank"><i class="fa-brands fa-researchgate"></i> ResearchGate</a>
     </div>
   </div>
 </section>
