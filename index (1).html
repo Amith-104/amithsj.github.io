@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amith S J | PhD Researcher</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <style>
+    :root {
+      --primary:#1f4e79;
+      --secondary:#2f6f95;
+      --accent:#5aa9e6;
+      --bg:#f8fafc;
+      --text:#1e293b;
+      --muted:#64748b;
+    }
+
+    body{
+      margin:0;
+      font-family:Segoe UI, Roboto, Arial, sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+
+    header{
+      background:linear-gradient(120deg,var(--primary),var(--secondary));
+      color:white;
+      padding:3rem 1.5rem;
+    }
+
+    header h1{margin:0;font-size:2.4rem;}
+    header p{margin-top:0.5rem;font-size:1.1rem;opacity:0.95;}
+
+    nav{
+      margin-top:1.5rem;
+      display:flex;
+      flex-wrap:wrap;
+      gap:1rem;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      font-size:0.95rem;
+      opacity:0.9;
+    }
+
+    nav a:hover{text-decoration:underline;opacity:1;}
+
+    main{
+      max-width:1100px;
+      margin:auto;
+      padding:2.5rem 1.5rem;
+    }
+
+    section{margin-bottom:3rem;}
+
+    section h2{
+      color:var(--primary);
+      font-size:1.6rem;
+      margin-bottom:1rem;
+      border-bottom:2px solid var(--accent);
+      display:inline-block;
+      padding-bottom:0.3rem;
+    }
+
+    .card{
+      background:white;
+      padding:1.5rem;
+      border-radius:10px;
+      box-shadow:0 8px 20px rgba(0,0,0,0.05);
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+      gap:1.5rem;
+    }
+
+    ul{padding-left:1.2rem;}
+    li{margin-bottom:1rem;}
+
+    .tag{
+      display:inline-block;
+      background:#e0f2fe;
+      color:#075985;
+      padding:0.25rem 0.6rem;
+      border-radius:6px;
+      font-size:0.8rem;
+      margin:0.2rem;
+    }
+
+    .profile-container{
+      display:flex;
+      align-items:flex-start;
+      gap:1.8rem;
+      flex-wrap:wrap;
+    }
+
+    .profile-pic{
+      width:160px;
+      height:160px;
+      min-width:160px;
+      min-height:160px;
+      object-fit:cover;
+      border-radius:50%;
+      border:4px solid var(--accent);
+      display:block;
+    }
+
+    .icon-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:1rem;
+      margin-top:1rem;
+    }
+
+    .icon-link{
+      display:flex;
+      align-items:center;
+      gap:0.6rem;
+      font-size:0.95rem;
+      text-decoration:none;
+      color:var(--primary);
+    }
+
+    .icon-link i{
+      font-size:1.2rem;
+      color:var(--secondary);
+    }
+
+    footer{
+      text-align:center;
+      padding:2rem 1rem;
+      background:#e2e8f0;
+      color:var(--muted);
+      font-size:0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Amith S J</h1>
+  <p>PhD Research Scholar | Urban Ecology • Evolution • Climate Change</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#education">Education</a>
+    <a href="#grants">Grants</a>
+    <a href="#awards">Awards</a>
+    <a href="#talks">Conferences</a>
+    <a href="#methods">Methods</a>
+    <a href="#publications">Publications</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#cv">CV</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card profile-container">
+    <img src="./amith.jpg" alt="Amith S J" class="profile-pic">
+    <div>
+      <p>
+        I am a <strong>PhD Research Scholar in Zoology</strong> at 
+        <strong>JAIN (Deemed-to-be) University, Bengaluru</strong>, affiliated with the
+        <strong>Centre for Urban Ecology, Biodiversity, Evolution & Climate Change (CUBEC)</strong>.
+      </p>
+      <p>
+        My research examines how rapid urbanisation and urban heat island effects drive
+        morphological, locomotor, and physiological adaptations in reptiles, using geckos
+        as a model system to understand urban evolution and climate-driven selection.
+      </p>
+      <p>
+        I am a <strong>funded early-career researcher</strong>, supported by competitive
+        international grants, and actively engaged in national and international scientific conferences.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="research">
+  <h2>Research Interests</h2>
+  <div class="grid">
+    <div class="card"><strong>Urban Ecology & Evolution</strong><p>Adaptation across urban–rural gradients.</p></div>
+    <div class="card"><strong>Thermal & Performance Biology</strong><p>CTmax, CTmin, locomotor performance.</p></div>
+    <div class="card"><strong>Climate Change Biology</strong><p>Urban heat islands as future climate analogues.</p></div>
+    <div class="card"><strong>Urban Biodiversity</strong><p>Responses of ectotherms to anthropogenic landscapes.</p></div>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="card">
+    <ul>
+      <li><strong>PhD in Zoology</strong> — JAIN University, Bengaluru (2022–Present)</li>
+      <li><strong>MSc in Zoology</strong> — CHRIST University, Bengaluru (2020–2022)</li>
+      <li><strong>BSc (Chemistry, Botany, Zoology)</strong> — CHRIST University, Bengaluru (2017–2020)</li>
+    </ul>
+  </div>
+</section>
+
+<section id="grants">
+  <h2>Grants Received</h2>
+  <div class="card">
+    <ul>
+      <li>
+        <strong>IDEA WILD Equipment Grant</strong> (Project ID: SJINDI0325-00)<br>
+        Competitive international grant providing equipment support up to <strong>USD 620</strong>.
+        <ul>
+          <li><strong>Xinfrared One XH09 Thermal Night Vision Monocular</strong> — nocturnal gecko surveys.</li>
+          <li><strong>Epson Perfection V39 II Flatbed Scanner</strong> — high-resolution morphometric imaging.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section id="awards">
+  <h2>Awards & Fellowships</h2>
+  <div class="card">
+    <ul>
+      <li>
+        <strong>SICB Charlotte Mangum Award Recipient</strong><br>
+        Awarded by the Society for Integrative and Comparative Biology (SICB)
+        in support of international participation and presentation at SICB 2026.
+      </li>
+
+      <li>
+        <strong>IDEA WILD International Equipment Grant Awardee</strong><br>
+        Recipient of a competitive international research equipment grant
+        supporting doctoral research in urban evolutionary ecology.
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+<section id="talks">
+  <h2>Conference Talks & Posters</h2>
+  <div class="card">
+    <ul>
+      <li><strong>2026</strong> — SICB, Portland, USA. <em>Climbing the urban ladder: Locomotor performance of urban and rural geckos.</em> (Oral)</li>
+      <li><strong>2025</strong> — REVA University, Bengaluru. <em>Urban morphometric variation in Cnemaspis mysoriensis.</em> (Oral)</li>
+      <li><strong>2025</strong> — WFCCP, JAIN University. <em>Impact of ALAN on insects from an urban forensic perspective.</em> (Oral)</li>
+      <li><strong>2024</strong> — ISEB, Lucknow. <em>Morphometric variation in Hemidactylus parvimaculatus.</em> (Poster)</li>
+    </ul>
+  </div>
+</section>
+
+<section id="methods">
+  <h2>Methods & Skills</h2>
+  <div class="card">
+    <span class="tag">R</span>
+    <span class="tag">Mixed Models</span>
+    <span class="tag">PCA</span>
+    <span class="tag">Morphometrics</span>
+    <span class="tag">Thermal Tolerance</span>
+    <span class="tag">Locomotor Performance</span>
+    <span class="tag">Field Ecology</span>
+    <span class="tag">ArcGIS</span>
+    <span class="tag">ImageJ</span>
+  </div>
+</section>
+
+<section id="publications">
+  <h2>Publications & Manuscripts</h2>
+  <div class="card">
+    <ul>
+      <li>Manuscript in preparation: Urban–rural morphometric divergence in geckos.</li>
+      <li>Submitted: Species–area relationships across golf courses in Karnataka.</li>
+      <li>Book Review (2024): <em>Urban Evolutionary Biology</em>, Journal of Animal Diversity.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="teaching">
+  <h2>Teaching</h2>
+  <div class="card">
+    <ul>
+      <li>Guest Faculty — Climate Change & Sustainability (MA English)</li>
+      <li>Guest Faculty — Environmental Science (BA Design)</li>
+      <li>Guest Faculty — Research Methodology</li>
+    </ul>
+  </div>
+</section>
+
+<section id="cv">
+  <h2>Curriculum Vitae</h2>
+  <div class="card">
+    <a href="CV_Amith_SJ.pdf" target="_blank" download>📄 Download CV (PDF)</a>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact & Profiles</h2>
+  <div class="card">
+    <div class="icon-grid">
+      <a class="icon-link" href="mailto:amith.sj@jainuniversity.ac.in"><i class="fa-solid fa-envelope"></i> Institutional Email</a>
+      <a class="icon-link" href="https://www.linkedin.com/in/amith-s-j/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+      <a class="icon-link" href="https://orcid.org/0000-0002-8485-5780" target="_blank"><i class="fa-brands fa-orcid"></i> ORCID</a>
+      <a class="icon-link" href="https://scholar.google.com/citations?user=oBpLWqEAAAAJ" target="_blank"><i class="fa-solid fa-graduation-cap"></i> Google Scholar</a>
+      <a class="icon-link" href="https://www.researchgate.net/profile/Amith-S-J-2" target="_blank"><i class="fa-brands fa-researchgate"></i> ResearchGate</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  © 2026 Amith S J | Academic Research Profile
+</footer>
+
+</body>
+</html>
